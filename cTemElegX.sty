@@ -1,0 +1,32 @@
+\NeedsTeXFormat{LaTeX2e}[2020/10/01]
+\ProvidesPackage{cTemElegX}[2025/08/25 v1.0 xeCJK for TemElegX]  
+
+
+\RequirePackage{calc}
+\RequirePackage[UTF8, fontset=none]{ctex}
+\xeCJKsetup{AutoFallBack=true, space=auto}
+
+\setCJKmainfont{思源宋体 Light}[BoldFont=思源宋体 SemiBold, ItalicFont=霞鹜文楷 GB Light]%
+\setCJKsansfont{思源黑体 Light}[BoldFont=思源黑体 Medium]%
+\setCJKmonofont{等距更纱黑体 Slab SC}%
+\newCJKfontfamily\song{思源宋体 Light}[BoldFont=思源宋体 SemiBold]%
+\newCJKfontfamily\xbs{思源宋体 ExtraLight} % 小标宋
+\newCJKfontfamily\bs{思源宋体} % 标宋
+\newCJKfontfamily\das{思源宋体 Medium} % 大宋
+\newCJKfontfamily\cus{思源宋体 Heavy} % 粗宋
+\newCJKfontfamily\hei{思源黑体 Light}[BoldFont=思源黑体 Medium]%
+\newCJKfontfamily\xih{思源黑体 ExtraLight} % 细黑
+\newCJKfontfamily\bh{思源黑体 Normal} % 标黑
+\newCJKfontfamily\dah{思源黑体} % 大黑
+\newCJKfontfamily\cuh{思源黑体 Heavy} % 粗黑
+\newCJKfontfamily\xik{霞鹜文楷 GB Light} % 细楷
+\newCJKfontfamily\kai{霞鹜文楷 GB} % 楷体
+\newCJKfontfamily\cuk{霞鹜文楷 GB Medium} % 粗楷
+\newCJKfontfamily\fzfs{FZFangSong-Z02} % 仿宋  建议不用于PDF中
+\newCJKfontfamily\fzss{FZShuSong-Z01} % 书宋    因为方正此四字体嵌入后
+\newCJKfontfamily\fzkt{FZKai-Z03} % 楷体         商业使用需要得到方正授权
+%思源宋体ExtraLight Light 不填   Medium SemiBold Heavy
+%思源黑体ExtraLight Light Normal 不填   Medium   Heavy
+%霞鹜文楷           Light 不填   Medium
+%\newfontfamily\re{Source Serif 4 Light}[BoldFont=Source Serif 4 SemiBold]
+%\newfontfamily\co{Source Sans 3 Light}[BoldFont=Source Sans 3]
